@@ -1,0 +1,80 @@
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.debit-card-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.debit-card-input {
+  padding: 20px;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.debit-card-sub-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-45 {
+  flex: 0.45;
+}
+
+.submit-button {
+  background: pink;
+  border: solid 1px pink;
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.debit-member-list-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.debit-member-item {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.debit-card-detail-container {
+  margin-bottom: 20px;
+}
+
+.button-hide-card {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.debit-card-detail {
+  border: solid 1px #000;
+  padding: 20px;
+
+  p {
+    font-size: 24px;
+  }
+}
+
+.debit-card-detail-footer {
+  display: flex;
+
+  p {
+    &:first-child {
+      margin-right: 32px;
+    }
+  }
+}
